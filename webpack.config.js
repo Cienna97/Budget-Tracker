@@ -1,5 +1,6 @@
 const path = require("path");
-
+//const { webpack } = require("webpack");
+const webpack = require("webpack");
 //entry
 
 //output
@@ -15,5 +16,11 @@ output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'main.bundle.js'
   },
+  plugins: [
+      new webpack.ProvidePlugin({
+          $: "jquery",
+          jquery: "jquery"
+      }),
+  ],
   mode: 'development'
 };
