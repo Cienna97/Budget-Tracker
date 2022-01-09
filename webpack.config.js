@@ -22,6 +22,9 @@ output: {
           $: "jquery",
           jquery: "jquery"
       }),
+      new BundleAnalyzerPlugin({
+          analyzerMode: "static",
+      })
   ],
   mode: 'development'
 };
