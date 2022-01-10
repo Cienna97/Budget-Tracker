@@ -91,4 +91,4 @@ window.addEventListener("online", checkDatabase);
 
 
 
-  <script src="./js/idb.js"></script>
+  //<script src="./js/idb.js"></script>
