@@ -61,9 +61,20 @@ function checkDatabase() {
                     "Content-Type": "application/json"
                 }
             })
-            
+            .then(response => response.json())
+            .then(serverResponse => {
+              if (serverResponse.message) {
+                throw new Error(serverResponse);
+              }
+              const transaction = db.transaction(["pending"], "readwrite");
+              const store = transaction.objectStore("pending");
+              store.clear();
+        
+              //.then(() => {
+                  //delete t
+              });
         }
-    }
+    };
 }
 
 
