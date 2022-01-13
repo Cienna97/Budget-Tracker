@@ -1,4 +1,3 @@
-//global constants
 const APP_PREFIX = 'my-site-cache-';  
 const VERSION = 'v1';
 const CACHE_NAME = APP_PREFIX + VERSION;
