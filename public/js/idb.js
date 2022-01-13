@@ -86,4 +86,3 @@ window.addEventListener("online", checkDatabase);
 
 
 
-  <script src="./js/idb.js"></script>
