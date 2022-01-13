@@ -21,8 +21,6 @@ const FILES_TO_CACHE = [
   "./icons/icon-512x512.png"
 ];
 
-
-
 //callback function of the install event listener
 self.addEventListener("install", function(event) {
     event.waitUntil(
