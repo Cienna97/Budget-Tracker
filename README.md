@@ -23,7 +23,7 @@ This application can be used to track your monthly budget and expenses. The user
 Github: https://github.com/Cienna97/Budget-Tracker.git
 
 
-Heroku: https://gentle-ravine-81040.herokuapp.com/
+Heroku: 
 
 # Screenshot
 
