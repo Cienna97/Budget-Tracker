@@ -84,5 +84,3 @@ window.addEventListener("online", checkDatabase);
 
 
 
-
-
